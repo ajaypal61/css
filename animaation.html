@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card {
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            line-height: 200px;
+            background-color: #b1d71da1;
+            color: red;
+            font-size: 30px;
+            text-align: center;
+            animation-name: bg;
+            animation-duration: 1s;
+            animation-timing-function: ease;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes bg {
+            0% {
+                background-color: yellow;
+                color: yellow;
+                border-radius: 0%;
+            }
+
+            25% {
+                border-radius: 25%;
+                background-color: pink;
+            }
+
+            100% {
+                border-radius: 50%;
+            }
+        }
+    </style>
+</head>
+<div class="card">Ajay</div>
+
+<body>
+
+</body>
+
+</html>

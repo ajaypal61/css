@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px;
+            display: inline;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: greenyellow;
+            color: grey;
+            padding: 14px 20px;
+            margin: 8px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: hotpink;
+        }
+
+        div {
+            border-radius: 5px;
+            background-color: #0000000d;
+            padding: 20px;
+            margin: 5px;
+            width: 700px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>SSC 10+2 Form</h3>
+    <div>
+        <FORm action="">
+            <label for="fname">First Name</label>
+            <br>
+            <input type="text" id="fname" name="firstname" placeholder="your name">
+            <br>
+            <br>
+            <label for="lname">Last Name</label>
+            <br>
+            <input type="text" id="lname" placeholder="your last name">
+            <br>
+            <br>
+            <label for="city"> City</label>
+            <select name="city" id="city">
+                <option value="sirohi">sirohi</option>
+                <option value="jalor">jalor</option>
+                <option value="nagaur">nagaur</option>
+                <option value="jaipur">jaipur</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="submit">
+        </FORm>
+    </div>
+</body>
+
+</html>

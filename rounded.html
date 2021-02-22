@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card {
+            width: 300px;
+            height: 300px;
+            /* position: absolute; */
+            /* top: 50%; */
+            /* left: 50%; */
+            /* line-height: 300px; */
+            text-align: center;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: blanchedalmond;
+            color: red;
+            font-size: 50px;
+            animation-name: bh;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes bh {
+            0% {
+                border-radius: 0%;
+            }
+
+            100% {
+                border-radius: 50%;
+            }
+        }
+
+        .prent {
+            margin: auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="prent">
+        <div class="card">
+            Ajay
+        </div>
+    </div>
+</body>
+
+</html>
